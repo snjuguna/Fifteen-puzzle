@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fifteen Puzzle</title>
+        <link rel="stylesheet" href="fifteen.css">
+        <script src="fifteen.js"></script>
+    </head>
+    <body onload="body()">
+        <h1>Fifteen Puzzle</h1>
+        <p>The goal of the fifteen puzzle is to un-jumble its fifteen squares by repeatedly making moves that slide squares into the empty space.  How quickly can you solve it?</p>
+
+        <h3>Please choose your background:</h3>
+
+        <select id="images" name="images" onchange="backgroundimages()">
+            <option id="sonic" value="sonic">Sonic</option>
+            <option id="knuckles" value="knuckles">Knuckles</option>
+            <option id="shadow" value="shadow">Shadow</option>
+            <option id="miles" value="miles">Miles</option>
+        </select>
+
+        <div id="table">                    
+                <div id="one" class="box">1</div> <div id="two" class="box">2</div> <div id="three" class="box">3</div> <div id="four" class="box">4</div>
+                <div id="five" class="box">5</div> <div id="six" class="box">6</div> <div id="seven" class="box">7</div> <div id="eight" class="box">8</div>
+                <div id="nine" class="box">9</div> <div id="ten" class="box">10</div> <div id="eleven" class="box">11</div> <div id="twelve" class="box">12</div>
+                <div id="thirteen" class="box">13</div> <div id="fourteen" class="box">14</div> <div id="fifteen" class="box">15</div> <div id="sixteen" class="box"></div>           
+        </div>
+
+        <span id="complete"></span>
+        <button onclick="shuffle()">Shuffle</button>
+
+        <p>American puzzle author and mathematician Sam Loyd is often falsely credited with creating the puzzle; indeed, Loyd claimed from 1891 until his death in 1911 that he invented it.  The puzzle was actually created around 1874 by Noyes Palmer Chapman, a postmaster in Canastota, New York.</p>
+
+        <a href="https://jigsaw.w3.org/css-validator/" target="_blank"><img src="css.jpg" alt="css"></a>
+        <a href="https://validator.w3.org" target="_blank"><img src="html.jpg" alt="html"></a>
+       
+    </body>
+</html>
+
+<!-- 3 Extra features implemented in this project:
+    - Animations and/ or transitions
+    - Game time
+    - Multiples backgrounds -->
