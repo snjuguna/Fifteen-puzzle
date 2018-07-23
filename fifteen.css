@@ -1,0 +1,150 @@
+body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align:center;
+}
+
+.sonic { 
+    background: url("sonic.jpg"); 
+}
+
+.knuckles { 
+    background: url("knuckles.jpg"); 
+}
+
+.shadow { 
+    background: url("shadow.jpg");
+}
+
+.miles { 
+    background: url("miles.jpg");
+}
+
+#table {
+    position: relative;
+    width:400px;
+    height:400px;
+    margin: auto;
+}
+
+.box {
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    border: 2px black solid;
+    width:96px;
+    height:96px;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+select, button {
+    display: block;
+    margin: 10px auto;
+}
+
+img {
+    float: right;
+    height: 30px;
+}
+
+#one { 
+    background-position: 0 0;      
+}
+
+#two {
+    background-position: -100px 0;      
+}
+
+#three { 
+    background-position: -200px 0;      
+}
+
+#four { 
+    background-position: -300px 0;      
+}
+
+#five { 
+    background-position: 0 -100px; 
+}
+#six {
+     background-position: -100px -100px; 
+}
+
+#seven { 
+    background-position: -200px -100px; 
+}
+
+#eight { 
+    background-position: -300px -100px; 
+}
+
+#nine { 
+    background-position: 0 -200px; 
+}
+
+#ten { 
+    background-position: -100px -200px; 
+}
+
+#eleven { 
+    background-position: -200px -200px; 
+}
+
+#twelve { 
+    background-position: -300px -200px; 
+}
+
+#thirteen {
+     background-position: 0 -300px; 
+}
+
+#fourteen { 
+    background-position: -100px -300px;
+}
+
+#fifteen {
+     background-position: -200px -300px;
+}
+
+#sixteen { 
+    border: 2px solid white; 
+}
+
+.interaction {
+    transition: 0.4s;
+}
+
+.interaction:hover {
+    border-color: red;
+    text-decoration: underline;
+    color: #006600;
+    cursor: pointer;
+}
+
+#complete {
+    font-size: 20px;
+    text-align: center;
+}
+
+.up {
+    transform: translate(0, -100px);
+}
+
+.down {
+    transform: translate(0, 100px);
+}
+
+.left {   
+    transform: translate(-100px, 0);
+}
+
+.right { 
+    transform: translate(100px, 0);
+}
